@@ -44,7 +44,7 @@ line 和 itemHeight 至少一个需给定数据.
 
 ## demo演示
 本demo请用: 模拟器6和6s运行,其它屏幕未作适配.
-
+  ![自动排版演示1](https://github.com/huxiaoluder/HUAutoLayout/blob/master/Sourse/自动排版演示1.gif)
 
 ## 交流邮箱
 huxiaoluder@163.com, 欢迎交流.
