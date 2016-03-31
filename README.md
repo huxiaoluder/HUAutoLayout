@@ -41,7 +41,9 @@ line, culomn, itemWidth, itemHeight 至少一个需给定数据.
 ##### 垂直方向上流水布局
 culomn 和 itemWidth 至少设置一个.
 需实现代理方法:
-- (CGFloat)layoutForItemHeight:(CGFloat)itemWith index:(NSUInteger)index;
+```Objc
+  - (CGFloat)layoutForItemHeight:(CGFloat)itemWith index:(NSUInteger)index;
+```
 
 ##### 水平方向上流水布局
 line 和 itemHeight 至少一个需给定数据.
