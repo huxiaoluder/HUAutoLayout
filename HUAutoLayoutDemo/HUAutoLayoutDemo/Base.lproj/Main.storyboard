@@ -230,7 +230,6 @@
         <!--布局页面-->
         <scene sceneID="QqM-ik-Aqu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HUS-ig-qXB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Cu5-am-0gz" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iFq-yr-T0y"/>
@@ -244,6 +243,7 @@
                     <navigationItem key="navigationItem" title="布局页面" id="cor-ht-mWx"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HUS-ig-qXB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-348.5" y="-62.5"/>
         </scene>

@@ -8,26 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4F062D1A1CA8BEB40084DAF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F062D191CA8BEB40084DAF2 /* main.m */; };
-		4F062D1D1CA8BEB40084DAF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F062D1C1CA8BEB40084DAF2 /* AppDelegate.m */; };
-		4F062D201CA8BEB40084DAF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F062D1F1CA8BEB40084DAF2 /* ViewController.m */; };
 		4F062D231CA8BEB40084DAF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F062D211CA8BEB40084DAF2 /* Main.storyboard */; };
 		4F062D261CA8BEB40084DAF2 /* HUAutoLayoutDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F062D241CA8BEB40084DAF2 /* HUAutoLayoutDemo.xcdatamodeld */; };
 		4F062D281CA8BEB40084DAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F062D271CA8BEB40084DAF2 /* Assets.xcassets */; };
 		4F062D2B1CA8BEB40084DAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F062D291CA8BEB40084DAF2 /* LaunchScreen.storyboard */; };
 		4F062D3C1CA8BF990084DAF2 /* HUAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F062D3B1CA8BF990084DAF2 /* HUAutoLayout.m */; };
-		4F0AF3341CAB9DD6001D711C /* HUTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AF3331CAB9DD6001D711C /* HUTableViewCell.m */; };
-		4F5CCCC71CAAD9C100773951 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F5CCCC61CAAD9C100773951 /* shop.plist */; };
-		4F7CDFE31CABA1B800036283 /* HUTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CDFE21CABA1B800036283 /* HUTableViewController.m */; };
-		4F7CDFE61CABE41300036283 /* HULayoutData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CDFE51CABE41300036283 /* HULayoutData.m */; };
+		4FD142281CACE4F100EDF331 /* HUTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1421B1CACE4F100EDF331 /* HUTableViewController.m */; };
+		4FD142291CACE4F100EDF331 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD1421D1CACE4F100EDF331 /* ViewController.m */; };
+		4FD1422A1CACE4F100EDF331 /* HULayoutData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD142201CACE4F100EDF331 /* HULayoutData.m */; };
+		4FD1422B1CACE4F100EDF331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD142231CACE4F100EDF331 /* AppDelegate.m */; };
+		4FD1422C1CACE4F100EDF331 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FD142241CACE4F100EDF331 /* shop.plist */; };
+		4FD1422D1CACE4F100EDF331 /* HUTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD142271CACE4F100EDF331 /* HUTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F062D151CA8BEB40084DAF2 /* HUAutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUAutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F062D191CA8BEB40084DAF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F062D1B1CA8BEB40084DAF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4F062D1C1CA8BEB40084DAF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F062D1E1CA8BEB40084DAF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F062D1F1CA8BEB40084DAF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F062D221CA8BEB40084DAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F062D251CA8BEB40084DAF2 /* HUAutoLayoutDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HUAutoLayoutDemo.xcdatamodel; sourceTree = "<group>"; };
 		4F062D271CA8BEB40084DAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,13 +31,17 @@
 		4F062D2C1CA8BEB40084DAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F062D3A1CA8BF990084DAF2 /* HUAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUAutoLayout.h; sourceTree = "<group>"; };
 		4F062D3B1CA8BF990084DAF2 /* HUAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUAutoLayout.m; sourceTree = "<group>"; };
-		4F0AF3321CAB9DD6001D711C /* HUTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTableViewCell.h; sourceTree = "<group>"; };
-		4F0AF3331CAB9DD6001D711C /* HUTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTableViewCell.m; sourceTree = "<group>"; };
-		4F5CCCC61CAAD9C100773951 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shop.plist; sourceTree = "<group>"; };
-		4F7CDFE11CABA1B800036283 /* HUTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTableViewController.h; sourceTree = "<group>"; };
-		4F7CDFE21CABA1B800036283 /* HUTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTableViewController.m; sourceTree = "<group>"; };
-		4F7CDFE41CABE41300036283 /* HULayoutData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HULayoutData.h; sourceTree = "<group>"; };
-		4F7CDFE51CABE41300036283 /* HULayoutData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HULayoutData.m; sourceTree = "<group>"; };
+		4FD1421A1CACE4F100EDF331 /* HUTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTableViewController.h; sourceTree = "<group>"; };
+		4FD1421B1CACE4F100EDF331 /* HUTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTableViewController.m; sourceTree = "<group>"; };
+		4FD1421C1CACE4F100EDF331 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FD1421D1CACE4F100EDF331 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FD1421F1CACE4F100EDF331 /* HULayoutData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HULayoutData.h; sourceTree = "<group>"; };
+		4FD142201CACE4F100EDF331 /* HULayoutData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HULayoutData.m; sourceTree = "<group>"; };
+		4FD142221CACE4F100EDF331 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FD142231CACE4F100EDF331 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FD142241CACE4F100EDF331 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shop.plist; sourceTree = "<group>"; };
+		4FD142261CACE4F100EDF331 /* HUTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTableViewCell.h; sourceTree = "<group>"; };
+		4FD142271CACE4F100EDF331 /* HUTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				4F062D391CA8BF990084DAF2 /* HUAutoLayout */,
-				4F7CDFEE1CAC5B0B00036283 /* Models */,
-				4F7CDFED1CAC5B0700036283 /* Views */,
-				4F7CDFEC1CAC5B0200036283 /* Controllers */,
-				4F7CDFEF1CAC5B8C00036283 /* Others */,
+				4FD1421E1CACE4F100EDF331 /* Models */,
+				4FD142251CACE4F100EDF331 /* Views */,
+				4FD142191CACE4F100EDF331 /* Controllers */,
+				4FD142211CACE4F100EDF331 /* Others */,
 				4F062D271CA8BEB40084DAF2 /* Assets.xcassets */,
 				4F062D181CA8BEB40084DAF2 /* Supporting Files */,
 			);
@@ -88,6 +88,8 @@
 		4F062D181CA8BEB40084DAF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F062D211CA8BEB40084DAF2 /* Main.storyboard */,
+				4F062D291CA8BEB40084DAF2 /* LaunchScreen.storyboard */,
 				4F062D2C1CA8BEB40084DAF2 /* Info.plist */,
 				4F062D241CA8BEB40084DAF2 /* HUAutoLayoutDemo.xcdatamodeld */,
 				4F062D191CA8BEB40084DAF2 /* main.m */,
@@ -104,45 +106,43 @@
 			path = HUAutoLayout;
 			sourceTree = "<group>";
 		};
-		4F7CDFEC1CAC5B0200036283 /* Controllers */ = {
+		4FD142191CACE4F100EDF331 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4F7CDFE11CABA1B800036283 /* HUTableViewController.h */,
-				4F7CDFE21CABA1B800036283 /* HUTableViewController.m */,
-				4F062D1E1CA8BEB40084DAF2 /* ViewController.h */,
-				4F062D1F1CA8BEB40084DAF2 /* ViewController.m */,
+				4FD1421A1CACE4F100EDF331 /* HUTableViewController.h */,
+				4FD1421B1CACE4F100EDF331 /* HUTableViewController.m */,
+				4FD1421C1CACE4F100EDF331 /* ViewController.h */,
+				4FD1421D1CACE4F100EDF331 /* ViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		4F7CDFED1CAC5B0700036283 /* Views */ = {
+		4FD1421E1CACE4F100EDF331 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4F0AF3321CAB9DD6001D711C /* HUTableViewCell.h */,
-				4F0AF3331CAB9DD6001D711C /* HUTableViewCell.m */,
+				4FD1421F1CACE4F100EDF331 /* HULayoutData.h */,
+				4FD142201CACE4F100EDF331 /* HULayoutData.m */,
 			);
-			name = Views;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		4F7CDFEE1CAC5B0B00036283 /* Models */ = {
+		4FD142211CACE4F100EDF331 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				4F7CDFE41CABE41300036283 /* HULayoutData.h */,
-				4F7CDFE51CABE41300036283 /* HULayoutData.m */,
+				4FD142221CACE4F100EDF331 /* AppDelegate.h */,
+				4FD142231CACE4F100EDF331 /* AppDelegate.m */,
+				4FD142241CACE4F100EDF331 /* shop.plist */,
 			);
-			name = Models;
+			path = Others;
 			sourceTree = "<group>";
 		};
-		4F7CDFEF1CAC5B8C00036283 /* Others */ = {
+		4FD142251CACE4F100EDF331 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4F062D1B1CA8BEB40084DAF2 /* AppDelegate.h */,
-				4F062D1C1CA8BEB40084DAF2 /* AppDelegate.m */,
-				4F062D211CA8BEB40084DAF2 /* Main.storyboard */,
-				4F062D291CA8BEB40084DAF2 /* LaunchScreen.storyboard */,
-				4F5CCCC61CAAD9C100773951 /* shop.plist */,
+				4FD142261CACE4F100EDF331 /* HUTableViewCell.h */,
+				4FD142271CACE4F100EDF331 /* HUTableViewCell.m */,
 			);
-			name = Others;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +204,7 @@
 			files = (
 				4F062D2B1CA8BEB40084DAF2 /* LaunchScreen.storyboard in Resources */,
 				4F062D281CA8BEB40084DAF2 /* Assets.xcassets in Resources */,
-				4F5CCCC71CAAD9C100773951 /* shop.plist in Resources */,
+				4FD1422C1CACE4F100EDF331 /* shop.plist in Resources */,
 				4F062D231CA8BEB40084DAF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,14 +216,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0AF3341CAB9DD6001D711C /* HUTableViewCell.m in Sources */,
-				4F062D201CA8BEB40084DAF2 /* ViewController.m in Sources */,
-				4F062D1D1CA8BEB40084DAF2 /* AppDelegate.m in Sources */,
 				4F062D261CA8BEB40084DAF2 /* HUAutoLayoutDemo.xcdatamodeld in Sources */,
-				4F7CDFE31CABA1B800036283 /* HUTableViewController.m in Sources */,
 				4F062D1A1CA8BEB40084DAF2 /* main.m in Sources */,
-				4F7CDFE61CABE41300036283 /* HULayoutData.m in Sources */,
+				4FD142281CACE4F100EDF331 /* HUTableViewController.m in Sources */,
 				4F062D3C1CA8BF990084DAF2 /* HUAutoLayout.m in Sources */,
+				4FD1422D1CACE4F100EDF331 /* HUTableViewCell.m in Sources */,
+				4FD1422A1CACE4F100EDF331 /* HULayoutData.m in Sources */,
+				4FD142291CACE4F100EDF331 /* ViewController.m in Sources */,
+				4FD1422B1CACE4F100EDF331 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
