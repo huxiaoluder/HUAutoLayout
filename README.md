@@ -1,15 +1,16 @@
 # HUAutoLayout
+====
 根据给定的数据量,进行自动排版.
 
 
-## 使用方法
+- 使用方法
 
-### 实例化布局对象
+--- 实例化布局对象
 ```Objc
   HUAutoLayout *layout = [HUAutoLayout sharedLayout];
 ```
 
-### 为布局对象赋值
+    * 为布局对象赋值
 ```Objc
   NSUInteger culomn;               //!< 属性描述: 列数  
   NSUInteger line;                 //!< 属性描述: 行数
