@@ -31,7 +31,7 @@
 line, culomn, itemWidth, itemHeight 至少一个需给定数据.
 
 ### 瀑布流自动布局
--必须先需要设置代理 waterfallDelegate.
+- 必须先需要设置代理 waterfallDelegate.
 ```Objc
   - (void) hu_layoutWaterfall:(UIView *)targetView layoutCount:(NSInteger)count layoutType:(HUAutoLayoutWaterfallType)type handleBlock:(HUAutoLayoutHandleBlock)handleBlock;
 ```
