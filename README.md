@@ -5,7 +5,9 @@
 ## 使用方法
 
 ### 实例化布局对象
-HUAutoLayout *layout = [HUAutoLayout sharedLayout];
+```Objc
+  HUAutoLayout *layout = [HUAutoLayout sharedLayout];
+```
 
 ### 为布局对象赋值
 ```Objc
@@ -17,7 +19,9 @@ HUAutoLayout *layout = [HUAutoLayout sharedLayout];
   CGSize itemSize;                 //!< 属性描述: 尺寸
 ```
 ### 九宫格自动布局
-- (void) hu_layoutSquare:(UIView *)targetView layoutCount:(NSInteger)count layoutType:(HUAutoLayoutSquareType)type handleBlock:(HUAutoLayoutHandleBlock)handleBlock;
+```Objc
+  - (void) hu_layoutSquare:(UIView *)targetView layoutCount:(NSInteger)count layoutType:(HUAutoLayoutSquareType)type handleBlock:(HUAutoLayoutHandleBlock)handleBlock;
+```
 
 ##### 垂直方向上流水布局
 必须设定 itemHeight, culomn 和 itemWidth 至少一个需给定数据.
@@ -29,8 +33,10 @@ HUAutoLayout *layout = [HUAutoLayout sharedLayout];
 line, culomn, itemWidth, itemHeight 至少一个需给定数据.
 
 ### 瀑布流自动布局
-必须先需要设置代理!
-- (void) hu_layoutWaterfall:(UIView *)targetView layoutCount:(NSInteger)count layoutType:(HUAutoLayoutWaterfallType)type handleBlock:(HUAutoLayoutHandleBlock)handleBlock;
+必须先需要设置代理.
+```Objc
+  - (void) hu_layoutWaterfall:(UIView *)targetView layoutCount:(NSInteger)count layoutType:(HUAutoLayoutWaterfallType)type handleBlock:(HUAutoLayoutHandleBlock)handleBlock;
+```
 
 ##### 垂直方向上流水布局
 culomn 和 itemWidth 至少设置一个.
@@ -40,8 +46,9 @@ culomn 和 itemWidth 至少设置一个.
 ##### 水平方向上流水布局
 line 和 itemHeight 至少一个需给定数据.
 需实现代理方法:
-- (CGFloat)layoutForItemWidth:(CGFloat)itemHeight index:(NSUInteger)index;
-
+```Objc
+  - (CGFloat)layoutForItemWidth:(CGFloat)itemHeight index:(NSUInteger)index;
+```
 
 ## demo演示
 本demo请用: 模拟器6和6s运行,其它屏幕未作适配.<br>
