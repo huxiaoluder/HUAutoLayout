@@ -2,9 +2,9 @@
 根据给定的数据量,进行自动排版.
 
 
-- 使用方法
+## 使用方法
 
--- 实例化布局对象
+### 实例化布局对象
 ```Objc
   HUAutoLayout *layout = [HUAutoLayout sharedLayout];
 ```
@@ -23,13 +23,11 @@
   - (void) hu_layoutSquare:(UIView *)targetView layoutCount:(NSInteger)count layoutType:(HUAutoLayoutSquareType)type handleBlock:(HUAutoLayoutHandleBlock)handleBlock;
 ```
 
-##### 垂直方向上流水布局
+- 垂直方向上流水布局
 必须设定 itemHeight, culomn 和 itemWidth 至少一个需给定数据.
-
-##### 水平方向上流水布局
+- 水平方向上流水布局
 必须设定 itemWidth, line 和 itemHeight 至少一个需给定数据.
-
-##### 限定范围内固定布局
+- 限定范围内固定布局
 line, culomn, itemWidth, itemHeight 至少一个需给定数据.
 
 ### 瀑布流自动布局
@@ -38,14 +36,13 @@ line, culomn, itemWidth, itemHeight 至少一个需给定数据.
   - (void) hu_layoutWaterfall:(UIView *)targetView layoutCount:(NSInteger)count layoutType:(HUAutoLayoutWaterfallType)type handleBlock:(HUAutoLayoutHandleBlock)handleBlock;
 ```
 
-##### 垂直方向上流水布局
+- 垂直方向上流水布局
 culomn 和 itemWidth 至少设置一个.
 需实现代理方法:
 ```Objc
   - (CGFloat)layoutForItemHeight:(CGFloat)itemWith index:(NSUInteger)index;
 ```
-
-##### 水平方向上流水布局
+- 水平方向上流水布局
 line 和 itemHeight 至少一个需给定数据.
 需实现代理方法:
 ```Objc
