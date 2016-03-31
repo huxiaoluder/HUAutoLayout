@@ -51,6 +51,9 @@ line 和 itemHeight 至少一个需给定数据.
 
 ## demo演示
 本demo请用: 模拟器6和6s运行,其它屏幕未作适配.<br>
+```Objc
+  //注释: demo中九宫格布局使用的是plist文件中的假数据,设置 布局数量 无用.
+```
   ![自动排版演示1](https://github.com/huxiaoluder/HUAutoLayout/blob/master/Sourse/自动排版演示1.gif "自动排版演示1")
   ![自动排版演示2](https://github.com/huxiaoluder/HUAutoLayout/blob/master/Sourse/自动排版演示2.gif "自动排版演示2")
 
