@@ -60,7 +60,6 @@ typedef void (^HUAutoLayoutHandleBlock)(CGRect frame, NSInteger index, NSError *
 @property ( nonatomic, weak) id<HUAutoLayoutWaterfallDelegate> waterfallDelegate;
 
 ///  实例化自动布局对象(单例)
-///  @param layoutCount 布局控件的数量
 ///  @return 返回布局对象
 + (instancetype) sharedLayout;
 
