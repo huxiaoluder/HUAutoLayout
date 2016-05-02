@@ -115,7 +115,7 @@ typedef NS_ENUM(NSUInteger, HUAutoLayoutAchivedCount) {
     // 数据漏缺判断
     if ((_culomn == 0 && _itemSize.width == 0) || _itemSize.height == 0) {
         
-        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @" 垂直方向上流水布局,必须设定 itemHeight, \nculomn 和 itemWidth 至少一个需给定数据!"}]);
+        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"垂直方向上流水布局,必须设定 itemHeight, \nculomn 和 itemWidth 至少一个需给定数据!"}]);
         
         return 0;
     }
@@ -161,7 +161,7 @@ typedef NS_ENUM(NSUInteger, HUAutoLayoutAchivedCount) {
     // 数据漏缺判断
     if ((_line == 0 && _itemSize.height == 0) || _itemSize.width == 0) {
         
-        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @" 水平方向上流水布局,必须设定 itemWidth, \nline 和 itemHeight 至少一个需给定数据!"}]);
+        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"水平方向上流水布局,必须设定 itemWidth, \nline 和 itemHeight 至少一个需给定数据!"}]);
         
         return 0;
     }
@@ -199,7 +199,7 @@ typedef NS_ENUM(NSUInteger, HUAutoLayoutAchivedCount) {
     // 尺寸(size)越界判断
     if (self.maxWidth > _superViewWidth || self.maxHeight > _superViewHeight) {
         
-        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @" 排版尺寸相对屏幕宽度尺寸,请检查数据安全性,重新赋值!"}]);
+        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"排版尺寸相对屏幕宽度尺寸,请检查数据安全性,重新赋值!"}]);
         
         return;
     }
@@ -219,7 +219,7 @@ typedef NS_ENUM(NSUInteger, HUAutoLayoutAchivedCount) {
     
     if (count == 0) {
         
-        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"限定范围内固定布局,必须设定 line, culomn, itemWidth, itemHeight 至少一个需给定数据!"}]);
+        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"限定范围内固定布局, line, culomn, itemWidth, itemHeight 至少一个需给定数据!"}]);
     
         return;
     }
@@ -518,7 +518,7 @@ typedef NS_ENUM(NSUInteger, HUAutoLayoutAchivedCount) {
     // 宽度越界判断
     if (self.maxWidth > _superViewWidth) {
         
-        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @" 排版宽度相对屏幕宽度越界,请检查数据安全性,重新赋值!"}]);
+        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"排版宽度相对屏幕宽度越界,请检查数据安全性,重新赋值!"}]);
         
         return 0;
     }
@@ -526,7 +526,7 @@ typedef NS_ENUM(NSUInteger, HUAutoLayoutAchivedCount) {
     // 数据漏缺判断
     if (_culomn == 0 && _itemSize.width == 0) {
         
-        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @" 垂直方向上流水布局,culomn 和 itemWidth 至少设置一个"}]);
+        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"垂直方向上流水布局,culomn 和 itemWidth 至少设置一个!"}]);
         
         return 0;
     }
@@ -625,7 +625,7 @@ typedef NS_ENUM(NSUInteger, HUAutoLayoutAchivedCount) {
     // 高度越界判断
     if (self.maxHeight > _superViewHeight) {
         
-        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @" 排版高度相对屏幕高度越界,请检查数据安全性,重新赋值!"}]);
+        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"排版高度相对屏幕高度越界,请检查数据安全性,重新赋值!"}]);
         
         return 0;
     }
@@ -633,7 +633,7 @@ typedef NS_ENUM(NSUInteger, HUAutoLayoutAchivedCount) {
     // 数据漏缺判断
     if (_line == 0 && _itemSize.height == 0) {
         
-        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @" 水平方向上流水布局,line 和 itemHeight 至少一个需给定数据!"}]);
+        handleBlock(CGRectZero, 0, [NSError errorWithDomain:@"https://github.com/huxiaoluder" code:4000 userInfo:@{@"layoutError" : @"水平方向上流水布局,line 和 itemHeight 至少一个需给定数据!"}]);
         
         return 0;
     }

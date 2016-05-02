@@ -11,12 +11,12 @@
 
 ///  九宫格布局方式
 typedef NS_ENUM(NSUInteger, HUAutoLayoutSquareType) {
-    ///  限定范围内固定布局
-    HUSquareFlowLayoutInFixedRect,
     ///  垂直方向上流水布局
     HUSquareFlowLayoutInVertical,
     ///  水平方向上流水布局
     HUSquareFlowLayoutInHorizontal,
+    ///  限定范围内固定布局
+    HUSquareFlowLayoutInFixedRect,
 };
 
 ///  瀑布流布局方式
@@ -51,16 +51,10 @@ typedef void (^HUAutoLayoutHandleBlock)(CGRect frame, NSInteger index, NSError *
 
 @property ( nonatomic, assign) NSUInteger culomn;               //!< 属性描述: 列数   
 @property ( nonatomic, assign) NSUInteger line;                 //!< 属性描述: 行数
-//@property ( nonatomic, assign) CGFloat contentInsetTop;         //!< 属性描述: 上边距
-//@property ( nonatomic, assign) CGFloat contentInsetLeft;        //!< 属性描述: 左边距
-//@property ( nonatomic, assign) CGFloat contentInsetBottom;      //!< 属性描述: 下边距
-//@property ( nonatomic, assign) CGFloat contentInsetRight;       //!< 属性描述: 右边距
 @property ( nonatomic, assign) UIEdgeInsets contentInset;       //! <属性描述: 内边距
 @property ( nonatomic, assign) CGFloat minimumInteritemSpacing; //!< 属性描述: 列间距
 @property ( nonatomic, assign) CGFloat minimumLineSpacing;      //!< 属性描述: 行间距
 @property ( nonatomic, assign) CGSize itemSize;                 //!< 属性描述: 尺寸
-//@property ( nonatomic, assign) CGFloat itemWidth;               //!< 属性描述: 单个方格的宽
-//@property ( nonatomic, assign) CGFloat itemHeight;              //!< 属性描述: 单个方格的高
 
 ///属性描述: 瀑布流布局代理
 @property ( nonatomic, weak) id<HUAutoLayoutWaterfallDelegate> waterfallDelegate;
