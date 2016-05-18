@@ -13,7 +13,7 @@
 ```Objc
   NSUInteger culomn;               //!< 属性描述: 列数  
   NSUInteger line;                 //!< 属性描述: 行数
-  UIEdgeInsets contentInset;       //! <属性描述: 内边距
+  UIEdgeInsets contentInset;       //!<属性描述: 内边距
   CGFloat minimumInteritemSpacing; //!< 属性描述: 列间距
   CGFloat minimumLineSpacing;      //!< 属性描述: 行间距
   CGSize itemSize;                 //!< 属性描述: 尺寸
